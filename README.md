@@ -1,2 +1,2 @@
 # Markdown-Table-Generator
-Generating markdown tables in python
+A tool to generate markdown tables in python
