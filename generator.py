@@ -25,7 +25,7 @@ class MarkdownGenerator:
     def fill_data(self):
         str_to_write = ""
         for item in self.data:
-            items_list = [item[key] for key in self.cols]
+            items_list = [item[key] if isinstance(item, str) else str(item[key]) for key in self.cols] 
             row = self.COL_BREAK + self.COL_BREAK.join(items_list) + self.COL_BREAK + "\n"
             str_to_write += row
         
