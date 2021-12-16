@@ -25,3 +25,7 @@ This tool generates markdown files from json files. The JSON files need to be in
     ]
 }
 ```
+
+### How to use
+___
+```python generate_markdown.py -i <json filename>.json -t <markdown filename>.md```
