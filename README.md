@@ -4,7 +4,7 @@ A tool to generate markdown tables in python
 This tool generates markdown files from json files. The JSON files need to be in the following form:
 
 
-```json
+```javascript 
 {
     columns: [item_a, item_b, item_c, ...],
 
