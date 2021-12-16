@@ -1,7 +1,7 @@
 # Markdown-Table-Generator
 A tool to generate markdown tables in python
 
-This tool generates markdown files from json files. The JSON files need to be in the following form:
+This tool generates markdown tables from json files, then it stores them inside a markdown filepath passed in by the user. The JSON files need to be in the following form:
 
 
 ```javascript 
